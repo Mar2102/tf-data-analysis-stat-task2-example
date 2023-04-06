@@ -11,4 +11,4 @@ def solution(p: float, x: np.array) -> tuple:
     size = x.size
     max = x.max()
     return max/((1-alpha/2)**(1./size)), \
-           max/(alpha/2**(1./size))
+           max/((alpha/2)**(1./size))
